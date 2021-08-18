@@ -1,0 +1,9 @@
+body {
+  font-size: 14px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background-color: aquamarine;
+}
