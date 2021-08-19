@@ -4,6 +4,27 @@ body {
 
 .container {
   width: 900px;
-  margin: auto;
-  background-color: aquamarine;
+  margin: 0 auto;
+  background-color: rgb(50, 148, 115);
+}
+
+.menu {
+  padding: 76px 0;
+  background-color: rgb(102, 119, 38);
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.menu-list :last-child {
+  margin-right: 0;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 100px;
 }
